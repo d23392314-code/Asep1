@@ -139,6 +139,7 @@ int hCount = 0;
 void onOnline();
 void showError(const String& msg);
 void setStatus(const char* s, uint16_t col);
+struct Buf;
 
 // ======================= TOMBOL =======================
 void pollButton() {
